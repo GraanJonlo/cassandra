@@ -1,0 +1,6 @@
+[template]
+src = "cassandra.yml.tmpl"
+dest = "/cassandra/conf/cassandra.yml"
+keys = [
+    "CLUSTER_NAME"
+]
